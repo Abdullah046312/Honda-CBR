@@ -1,0 +1,41 @@
+#nav_ber {
+    position: absolute; /* Set to absolute */
+    top: 0; /* Adjust as needed */
+    left: 0; /* Adjust as needed */
+    width: 100%; /* Full width */
+    z-index: 1000; /* Ensure it’s above other elements */
+    background-color: #264653;
+  }
+  
+.nav{
+    font-size: 16px;
+    display: flex;
+    gap: 20px;
+    font-weight: 800;
+    font-family: "Lato", sans-serif;
+    
+}
+
+.nav :last-child{
+    background-color: #264653;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
+#nav_ber .navbar-brand {
+    font-weight: 800; /* Set font weight to 800 */
+    color: #FFFFFF;
+  }
+
+  .nav a {
+    color: #FFFFFF; /* Dark text color */
+    text-decoration: none; /* Remove underline */
+    padding: 10px 15px; /* Padding for clickable area */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+.nav a:hover {
+    background-color: #2E236C; /* Highlight color */
+    color: #ffffff; /* Text color on hover */
+}

@@ -1,0 +1,92 @@
+.six {
+    text-align: center;
+}
+
+.six h2 {
+    font-size: 45px;
+    font-weight: 800;
+    font-family: "Inter", sans-serif;
+    color: #121212;
+    margin-bottom: 15px; /* Added margin for spacing */
+}
+
+.six p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #707070;
+    margin-bottom: 30px; /* Added margin for spacing */
+}
+
+.seven, .eight, .nine {
+    background-color: rgba(79, 157, 166, 0.315); /* Default background */
+    padding: 40px;
+    margin-top: 40px;
+    border-radius: 6px;
+    transition: transform 0.3s, box-shadow 0.3s; /* Add transition for hover effect */
+}
+
+.seven:hover, .eight:hover, .nine:hover {
+    transform: translateY(-10px); /* Lift effect on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Soft shadow on hover */
+}
+.one button {
+    font-size: 1.25rem; /* Default size */
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #FFFF;
+    padding: 15px 30px;
+    background-color: #E76F51;
+    border: none;
+    margin-top: 20px;
+    transition: background-color 0.5s;
+    border-radius: 8px;
+}
+.seven button {
+    font-size: 16px; /* Default size */
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #FFFF;
+    padding: 15px 30px;
+    background-color: #E76F51;
+    border: none;
+    margin-top: 20px;
+    transition: background-color 0.5s;
+    border-radius: 8px;
+}
+
+.seven button:hover {
+    background-color: #37AFE1;
+}
+
+.seven h2, .eight h2, .nine h2 {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #121212;
+    margin-top: 20px;
+}
+
+.seven p, .eight p, .nine p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #707070;
+    margin-top: 20px;
+}
+.seven img{
+    width: 100%;
+}
+/* Specific background colors for each section */
+.seven {
+    background-color: rgba(79, 157, 166, 0.315);
+}
+
+.eight {
+    background-color: rgba(255, 89, 89, 0.301);
+}
+
+.nine {
+    background-color: #FFF4D6;
+}
+

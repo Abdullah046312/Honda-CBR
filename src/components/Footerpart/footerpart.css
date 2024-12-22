@@ -1,0 +1,56 @@
+#footer{
+    background-color: #000000;
+    padding: 120px 0px;
+}
+.fourteen{
+    display: flex;
+    align-items: start;
+    
+    gap: 20px;
+}
+
+.fourteen h2{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #FFFF;
+   
+}
+.fourteen p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #FFFF;
+   
+}
+
+.fiveteen{
+    display: flex;
+    align-items: start;
+    
+    gap: 20px;  
+}
+
+.fiveteen h4{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #FFFF;
+}
+.sixteen h4{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #FFFF;
+    margin-top: 20px;
+}
+.seventeen h4{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #FFFF;
+    margin-top: 20px;
+}
+.eightteen img{
+    padding-bottom: 20px;
+}

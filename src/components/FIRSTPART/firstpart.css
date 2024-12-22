@@ -1,0 +1,31 @@
+#first {
+    padding: 80px 0;
+    
+}
+
+.two {
+    text-align: center;
+}
+
+.two h2 {
+    font-size: 2.5rem; /* Responsive size */
+    font-weight: 800;
+    font-family: "Poppins", sans-serif;
+    color: #272727;
+}
+
+.two p {
+    font-size: 1rem; /* Responsive size */
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #E76F51;
+}
+
+.three {
+    margin-top: 40px;
+}
+
+.three img{
+    width: 80%;
+}
+
